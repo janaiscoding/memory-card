@@ -14,7 +14,7 @@ let data = [
   {
     name: "monkaW",
     img: MonkaW,
-    description: "When you hear a random sound at 3AM..",
+    description: "When you hear sounds at 3AM..",
     id: uniqid(),
     isClicked: false,
   },
@@ -28,7 +28,7 @@ let data = [
   {
     name: "peepoNotes",
     img: peepoNotes,
-    description: "*Checks notes* Yep, this game works hehe",
+    description: "*Checks notes*",
     id: uniqid(),
     isClicked: false,
   },
@@ -42,14 +42,14 @@ let data = [
   {
     name: "PepeHands",
     img: PepeHands,
-    description: "My face when my variables return undefined",
+    description: "WHHYYYY",
     id: uniqid(),
     isClicked: false,
   },
   {
     name: "Sadge",
     img: Sadge,
-    description: "Feels really sad, man.....",
+    description: "Feels really sad, man...",
     id: uniqid(),
     isClicked: false,
   },
@@ -71,7 +71,7 @@ let data = [
   {
     name: "peepoCute",
     img: peepoCute,
-    description: "You IRL",
+    description: "Literally you IRL",
     id: uniqid(),
     isClicked: false,
   },

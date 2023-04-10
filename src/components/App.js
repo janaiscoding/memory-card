@@ -53,6 +53,7 @@ const App = () => {
 
   return (
     <div className="game">
+      <div className="info">Get points by clicking on a peepo but don't click on any more than once!</div>
       <div className="score-wrap">
         <div className="score">Score: {score}</div>
         <div className="best-score">Best Score: {bestScore}</div>

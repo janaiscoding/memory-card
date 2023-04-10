@@ -15,29 +15,37 @@
   grid-template-columns: repeat(5, 1fr);
 }
 :root {
-  background-color: #f9f7f4;
+  background-color: #263a29;
   font-family: "Inder";
 }
 .game {
+  display: flex;
+  flex-direction: column;
   height: 85vh;
+  align-items: center;
+  padding: 0px 100px;
+  justify-content: center;
+  gap: 10px;
 }
 .score-wrap {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   font-size: 18px;
   font-weight: 500;
   gap: 30px;
-  padding: 25px 100px;
 }
-
+.info {
+  color: #f2e3db;
+  font-size: 20px;
+  font-style: italic;
+}
 .card-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background-color: #efe7dd36;
-  box-shadow: 3px 0px 8px -1px rgba(158, 152, 158, 0.79);
+  background-color: #f2e3db;
   border: 1px solid rgba(0, 0, 0, 0.245);
   margin: 10px;
   height: 250px;
@@ -46,13 +54,11 @@
 .card-wrap:hover {
   transform: scale(1.03);
   border: 1px solid rgba(102, 65, 65, 0.776);
-  box-shadow: 3px 0px 8px -1px rgba(158, 152, 158, 0.79);
 }
 .name {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #244abb;
-  font-style: italic;
+  color: #263a29;
   padding: 10px;
 }
 .description {
@@ -63,12 +69,12 @@
 }
 img {
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.093);
 }
 .score {
-  color: #244abb;
+  color: #f2e3db;
 }
 
 .best-score {
-  color: brown;
+  color: #e86a33;
+  font-weight: 600;
 }

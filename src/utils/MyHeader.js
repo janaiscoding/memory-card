@@ -10,7 +10,7 @@ class MyHeader extends React.Component {
             href="https://github.com/janaiscoding/memory-game"
             className="logo"
           >
-            PeepoMemory
+            peepoMemory
           </a>
           <div className="right-wrapper">
             <div className="social">
