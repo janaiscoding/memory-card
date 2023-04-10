@@ -7,7 +7,7 @@ class MyHeader extends React.Component {
       <>
         <nav className="navbar">
           <a
-            href="https://github.com/janaiscoding/memory-game"
+            href="https://github.com/janaiscoding/memory-card"
             className="logo"
           >
             peepoMemory
