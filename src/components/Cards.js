@@ -14,7 +14,7 @@ const Cards = ({ cardSet, onClick }) => {
       onClick={onClick}
     />
   ));
-  return <>{allCards}</>;
+  return <div className="main">{allCards}</div>;
 };
 
 export default Cards;
