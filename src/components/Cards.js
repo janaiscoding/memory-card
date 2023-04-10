@@ -3,7 +3,6 @@
 // on click -> shuffle (Be sure to invoke that function when the component mounts.)
 import React from "react";
 import CardItem from "./CardItem";
-import "../styles/cards.css";
 
 const Cards = ({ cardSet, onClick }) => {
   const allCards = cardSet.map((cardItem) => (

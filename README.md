@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Jana's Memory Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project's Scope 
 
-## Available Scripts
+- The scope of this project was to build **my second application in React using functional components and hooks**.
+- This is a memory game that shuffles the pepes on every click, keeping score and best score based on each object's **isClicked** key.
 
-In the project directory, you can run:
+## Live Demo
+- See the full live preview [here](https://janaiscoding.github.io/memory-card/)
 
-### `npm start`
+## Getting Started 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installing and running
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/janaiscoding/memory-card.git
+cd memory-card
+npm install
+npm start
+```
 
-### `npm test`
+## Project Details & Description 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 10 beautiful pepes are ready to test your memory 
+- Click and remember which ones you've clicked before
+- This project works thanks for the lifecycle methods and state inside of React.
+- This project is part of The Odin Project's [curriculum](https://www.theodinproject.com/lessons/node-path-javascript-memory-card).
 
-### `npm run build`
+# Built with 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- CSS3
+- HTML5
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tools Used 
 
-### `npm run eject`
+- Visual Studio Code
+- npm package manager
+- Linux Terminal
+- Git and Github
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Future plans for this project 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I could import a library and have more elements than the 10 images I manually uploaded to this project
+- Mobile responsiveness 
+- Upload the project preview to this README

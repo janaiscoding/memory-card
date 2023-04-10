@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/cardItem.css"
 
 const CardItem = ({ id, cardItem, onClick }) => {
   return (

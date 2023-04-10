@@ -28,7 +28,7 @@ let data = [
   {
     name: "peepoNotes",
     img: peepoNotes,
-    description: "*Checks notes* Yep, this game works",
+    description: "*Checks notes* Yep, this game works hehe",
     id: uniqid(),
     isClicked: false,
   },

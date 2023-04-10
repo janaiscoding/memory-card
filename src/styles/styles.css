@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Inder";
+  src: local("Inder"), url("../utils/Inder/Inder-Regular.ttf");
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+:root {
+  background-color: #f9f7f4;
+  font-family: "Inder";
+}
+.game {
+  height: 85vh;
+}
+.score-wrap {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 30px;
+  padding: 25px 100px;
+}
+
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #efe7dd36;
+  box-shadow: 3px 0px 8px -1px rgba(158, 152, 158, 0.79);
+  border: 1px solid rgba(0, 0, 0, 0.245);
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+}
+.card-wrap:hover {
+  transform: scale(1.03);
+  border: 1px solid rgba(102, 65, 65, 0.776);
+  box-shadow: 3px 0px 8px -1px rgba(158, 152, 158, 0.79);
+}
+.name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #244abb;
+  font-style: italic;
+  padding: 10px;
+}
+.description {
+  font-style: italic;
+  padding: 10px;
+  font-size: 14px;
+  color: #060f28;
+}
+img {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.093);
+}
+.score {
+    color: red;
+}
+
+.best-score {
+    color: brown;
+}

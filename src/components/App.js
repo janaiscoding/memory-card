@@ -7,27 +7,27 @@ const App = () => {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
 
+  const handleScore = () => {
+    setScore(score + 1);
+  };
+  const handleBest = () => {
+    let currentScore = score;
+    if (currentScore > bestScore) {
+      setBestScore(() => currentScore);
+    }
+  };
   const handleClick = (id) => {
+    shuffleCards(cardSet);
     setCards((prevState) => {
       const changedCards = prevState.map((cardItem) => {
         if (cardItem.id === id) {
           if (!cardItem.isClicked) {
-            //increment score
-            setScore(score + 1);
-            // shuffle cards -- HOW TO DO THIS
+            handleScore();
             return { ...cardItem, isClicked: true };
           } else if (cardItem.isClicked) {
-            console.log("score, bestScore", score, bestScore);
-            //card has the is clicked true so i will check best score now
-            if (score > bestScore) {
-              setBestScore(score);
-              setScore(0);
-            }
-            //always reset the score back to 1
+            handleBest();
             setScore(0);
-            //shuffle table reset all card items
             resetCards();
-            console.log("no", cardItem.id, "score", score, "best", bestScore);
           }
         }
         return cardItem;
@@ -35,8 +35,13 @@ const App = () => {
       return changedCards;
     });
   };
+  const shuffleCards = (cardSet) => {
+    for (let i = cardSet.length - 1; i > 0; i--) {
+      let randomIdx = Math.floor(Math.random() * i);
+      [cardSet[randomIdx], cardSet[i]] = [cardSet[i], cardSet[randomIdx]];
+    }
+  };
 
-  //this sets all isclicked to false again
   const resetCards = () => {
     setCards((prevState) => {
       const cleanCards = prevState.map((cardItem) => {
@@ -45,12 +50,15 @@ const App = () => {
       return cleanCards;
     });
   };
+
   return (
-    <>
-      <div>score: {score}</div>
-      <div>best score: {bestScore}</div>
+    <div className="game">
+      <div className="score-wrap">
+        <div className="score">Score: {score}</div>
+        <div className="best-score">Best Score: {bestScore}</div>
+      </div>
       <Cards cardSet={cardSet} onClick={handleClick} />
-    </>
+    </div>
   );
 };
 export default App;
