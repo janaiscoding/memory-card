@@ -1,6 +1,6 @@
 import uniqid from "uniqid";
 
-let cards = [
+let data = [
   {
     name: "name",
     img: "img",
@@ -74,4 +74,4 @@ let cards = [
   },
 ];
 
-export default cards;
+export default data;
