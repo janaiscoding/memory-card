@@ -1,74 +1,84 @@
 import uniqid from "uniqid";
+import MonkaW from "../game_imgs/MonkaW.webp"
+import Okayge from "../game_imgs/Okayge.webp"
+import peepoNotes from "../game_imgs/peepoNotes.webp" 
+import peepoSit from "../game_imgs/peepoSit.webp"
+import PepeHands from "../game_imgs/PepeHands.webp"
+import Sadge from "../game_imgs/Sadge.webp"
+import Susge from "../game_imgs/Susge.webp"
+import Wokege from "../game_imgs/Wokege.webp"
+import peepoCute from "../game_imgs/peepoCute.webp"
+import Poggies from "../game_imgs/Poggies.webp"
 
 let data = [
   {
-    name: "name",
-    img: "img",
-    description: "description1",
+    name: "monkaW",
+    img: MonkaW,
+    description: "When you hear a random sound at 3AM..",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img2",
-    description: "description2",
+    name: "Okayge",
+    img: Okayge,
+    description: "This pepe agrees with you",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img3",
-    description: "description3",
+    name: "peepoNotes",
+    img: peepoNotes,
+    description: "*Checks notes* Yep, this game works",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img4",
-    description: "description4",
+    name: "peepoSit",
+    img: peepoSit,
+    description: "Sits near you quietly",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img5",
-    description: "description5",
+    name: "PepeHands",
+    img: PepeHands,
+    description: "My face when my variables return undefined",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img6",
-    description: "description6",
+    name: "Sadge",
+    img: Sadge,
+    description: "Feels really sad, man.....",
     id: uniqid(),
     isClicked: false,
   },
 
   {
-    name: "name",
-    img: "img7",
-    description: "description7",
+    name: "Susge",
+    img: Susge,
+    description: "What are you insinuating..?",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img8",
-    description: "description8",
+    name: "Wokege",
+    img: Wokege,
+    description: "Alarm clock be ringin'",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img9",
-    description: "description9",
+    name: "peepoCute",
+    img: peepoCute,
+    description: "You IRL",
     id: uniqid(),
     isClicked: false,
   },
   {
-    name: "name",
-    img: "img10",
-    description: "description10",
+    name: "Poggies",
+    img: Poggies,
+    description: "No way that just happened!!",
     id: uniqid(),
     isClicked: false,
   },

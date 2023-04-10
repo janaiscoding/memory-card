@@ -1,7 +1,7 @@
-.card-wrap {
-  border: 1px solid black;
-}
 .main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+:root{
+    background-color: rgba(229, 208, 181, 0.394);
 }

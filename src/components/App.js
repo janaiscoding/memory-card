@@ -47,9 +47,9 @@ const App = () => {
   };
   return (
     <>
-      <Cards cardSet={cardSet} onClick={handleClick} />
       <div>score: {score}</div>
       <div>best score: {bestScore}</div>
+      <Cards cardSet={cardSet} onClick={handleClick} />
     </>
   );
 };
