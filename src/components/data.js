@@ -1,14 +1,14 @@
 import uniqid from "uniqid";
-import MonkaW from "../game_imgs/MonkaW.webp"
-import Okayge from "../game_imgs/Okayge.webp"
-import peepoNotes from "../game_imgs/peepoNotes.webp" 
-import peepoSit from "../game_imgs/peepoSit.webp"
-import PepeHands from "../game_imgs/PepeHands.webp"
-import Sadge from "../game_imgs/Sadge.webp"
-import Susge from "../game_imgs/Susge.webp"
-import Wokege from "../game_imgs/Wokege.webp"
-import peepoCute from "../game_imgs/peepoCute.webp"
-import Poggies from "../game_imgs/Poggies.webp"
+import MonkaW from "../assets/game_imgs/MonkaW.webp"
+import Okayge from "../assets/game_imgs/Okayge.webp"
+import peepoNotes from "../assets/game_imgs/peepoNotes.webp" 
+import peepoSit from "../assets/game_imgs/peepoSit.webp"
+import PepeHands from "../assets/game_imgs/PepeHands.webp"
+import Sadge from "../assets/game_imgs/Sadge.webp"
+import Susge from "../assets/game_imgs/Susge.webp"
+import Wokege from "../assets/game_imgs/Wokege.webp"
+import peepoCute from "../assets/game_imgs/peepoCute.webp"
+import Poggies from "../assets/game_imgs/Poggies.webp"
 
 let data = [
   {

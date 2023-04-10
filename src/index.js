@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App';
-import MyFooter from './utils/MyFooter';
-import MyHeader from './utils/MyHeader';
+import MyFooter from './components/MyFooter';
+import MyHeader from './components/MyHeader';
 import "./styles/styles.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
